@@ -22,6 +22,7 @@
                 value="<?php echo $usuario->email; ?>"
                 name="email"
                 placeholder="Tu Email"
+                disabled
             />
         </div>
 
