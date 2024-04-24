@@ -151,7 +151,7 @@
                 <div class="opciones">
                     <input 
                         type="submit" 
-                        class="submit-nueva-tarea" 
+                        class="submit-nueva-tarea mens" 
                         value="${tarea.nombre ? 'Guardar Cambios' : 'Añadir Tarea'} " 
                     />
                     <button type="button" class="cerrar-modal">Cancelar</button>
@@ -159,10 +159,14 @@
             </form>
         `;
 
+
+
         setTimeout(() => {
             const formulario = document.querySelector('.formulario');
             formulario.classList.add('animar');
         }, 0);
+
+
 
         modal.addEventListener('click', function(e) {
             e.preventDefault();
